@@ -1,0 +1,6 @@
+Image: Application
+Obtain images from registries (either docker hub or local)
+
+Container: Running instance of an image
+A container is NOT a vm. 
+It is a bunch of processes grouped together that act in their own environment.
