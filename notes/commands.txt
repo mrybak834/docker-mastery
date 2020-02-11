@@ -5,9 +5,11 @@ Docker info
 docker container run —publish 80:80 nginx
 : create container, map localhost:80 to container:80, start nginx image
 
-docker container run --publish 80:80 --detach —name mycoolnginx nginx
+docker container run --publish 80:80 --detach —-name mycoolnginx nginx
 : make the container run in the background
 
+docker container run --env VARNAME=value
+: set an env variable for the container
 
 ################################################ STOP ################################################
 docker container stop <id>
